@@ -134,7 +134,31 @@ button:nth-child(2){
                             }
 /* End color buttons*/
 
+@media (max-width:1610px) {
+    #container{
+ 
+        height: 700px;
+        background-image: url("background.jpg");
+        background-size: 1050px;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: auto;
+       
+    }
 
+    #calculator {
+        width: 320px;
+        height: 520px;
+        background-color: #cbcfd1;
+        margin: 0 auto;
+        top:90px;
+        position: relative;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    }
+
+    
+}
                         
                     
                 
